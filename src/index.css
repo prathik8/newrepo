@@ -1,0 +1,430 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+ 
+.html,body{
+  margin : 0;
+  padding : 0;
+  
+}
+
+*{
+  font-family : 'Readex Pro' , sans-serif;
+}
+
+.primary-button{
+  color : #fff;
+  text-transform : uppercase;
+  font-size : 15px;
+  background: linear-gradient(45deg, #fe3090, #ff5940);
+  padding : 12px 30px;
+  border-radius : 30px;
+}
+
+.primary-button:hover{
+   background:linear-gradient(260deg, #fe3077, #ff5940);
+   cursor : pointer ;
+    
+}
+
+body{
+  text-align : center;
+
+}
+
+/* ----------------Navbar------------------------- */
+
+.nav{
+  width : 100%;
+  display : flex;
+  justify-content : space-between;
+
+
+}
+
+  .logo-container{
+   width: 150px;
+   margin : 5px;
+
+
+}
+.nav .logo-container .logo{
+  width : 100%;
+}
+
+.nav .nav-button {
+  color : rgb(254,48,144);
+  background-color : #fff;
+  border-radius : 10px;
+  font-size : 20px;
+  padding : 10px;
+  border : none;
+  margin : 10px;
+  
+}
+
+
+.nav .nav-button:hover{
+  cursor : pointer ;
+}
+
+ 
+
+
+.nav{
+  width : 100%;
+  
+}
+
+.lay{
+  width : 100vw;
+  height : 100vh;
+  position : fixed;
+  background:linear-gradient(260deg, #fe3077, #ff5940);
+}
+
+/* -----------authmodel------------ */
+
+ 
+
+.auth-model .close-icon{
+  float : right;
+}
+
+.secondary-button {
+  color : #fff;
+  background: linear-gradient(45deg, #fe3090, #ff5940);
+  font-weight : 500;
+  font-size : 15px;
+  text-transform : uppercase;
+  padding : 12px 30px;
+  border-radius : 30px;
+  border : solid 2px rgb(121,119,119);
+  margin: 5px;
+  
+
+}
+
+.secondary-button:hover{
+  background: linear-gradient(45deg, #fe3066, #ff5704);
+  cursor:pointer;
+}
+
+.auth-model {
+  
+  max-width: 400px;
+  margin-top :30px;
+  margin-left : 500px;
+  margin-right : auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.close-icon {
+  cursor: pointer;
+  font-size: 20px;
+  float: right;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border-radius : 7px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius : 7px;
+  border : 1px solid black;
+}
+
+ 
+
+.secondary-button {
+  background-color: #2196f3;
+}
+
+p {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+hr {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+ 
+/* -------------------onboarding------------------- */
+
+/* Basic styling for the onboarding container */
+.onboarding {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the heading */
+.onboarding h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling for form elements */
+.onboarding form {
+  display: flex;
+  flex-direction: column;
+}
+
+.onboarding section {
+  margin-bottom: 16px;
+}
+
+.onboarding label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.onboarding input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius : 7px;
+  border : 1px solid black;
+}
+
+
+.onboarding button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.onboarding button.secondary-button {
+  background-color: #28a745;
+}
+
+.onboarding p {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.onboarding hr {
+  margin: 20px 0;
+  border: 1px solid #ccc;
+}
+
+.onboarding h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+
+/* --------------------Dashboard----------------- */
+
+/* CSS for SwipeableCard component */
+
+/* dashboard styles */
+/* Dashboard Container */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   margin:160px;
+   background: linear-gradient(45deg, #fe3090, #ff5940);
+}
+
+/* Tinder Card Styles */
+.swiper-container {
+  width: 70%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swipe {
+  position: absolute;
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  width: 80vw;
+  max-width: 260px;
+  height: 300px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+/* Chat Placeholder Styles */
+.chat-placeholder {
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+/* Customize as needed */
+
+/* ----------------------chat--------------- */
+
+
+/* General styling for the chat component */
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top :300px;
+}
+
+/* Style for the chat options buttons */
+.chat button.options {
+  margin: 10px;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Additional styling for the chat options buttons */
+.chat button.options:hover {
+  background-color: #2980b9;
+}
+
+/* Styling for the Matchdisplay and Chatdisplay components */
+.chat div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* You can add more specific styles for Matchdisplay and Chatdisplay components here */
+/* Styles for the chat container header */
+.chat-container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #3498db; /* Adjust the background color as needed */
+  color: #fff; /* Text color */
+}
+
+/* Styles for the profile section */
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for the profile image container */
+.img-container {
+  width: 40px; /* Adjust the width of the container */
+  height: 40px; /* Adjust the height of the container */
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/* Styles for the profile image */
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Styles for the username */
+.profile h3 {
+  margin-left: 10px;
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Styles for the log-out icon */
+.log-out-icon {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #fff; /* Icon color */
+  cursor: pointer;
+}
+
+/* Hover effect for the log-out icon */
+.log-out-icon:hover {
+  opacity: 0.8;
+}
+
+/* Styles for the matches display container */
+.matches-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+/* Styles for individual match cards */
+.match-card {
+  width: 150px; /* Adjust the width of each match card */
+  height: 200px; /* Adjust the height of each match card */
+  margin: 10px; /* Adjust the margin between match cards */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Card background color */
+}
+
+/* Styles for match card content */
+.match-card-content {
+  padding: 10px;
+}
+
+/* Styles for match card image */
+.match-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd; /* Border between image and content */
+}
+
+/* Styles for match card name */
+.match-card h4 {
+  margin-top: 10px;
+  font-size: 16px; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+/* Styles for additional information in the match card */
+.match-card p {
+  margin-top: 5px;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: #555;
+}
